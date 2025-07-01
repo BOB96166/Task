@@ -1,0 +1,60 @@
+@keyframes cactusMov {
+  0% {
+    left: 500px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 100px;
+  }
+  50% {
+    top: 60px;
+  }
+  60% {
+    top: 80%;
+  }
+  80% {
+    top: 120px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+.boby {
+  height: 200px;
+  width: 600px;
+  border-bottom: 1px solid #000;
+  margin: auto;
+}
+
+#ronaldo {
+  background-image: url(dino.png);
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: relative;
+  top: 150px;
+}
+
+#flower {
+  width: 20px;
+  height: 40px;
+  background-image: url(cactus.png);
+  background-size: 20px 40px;
+  position: relative;
+  top: 110px;
+  left: 500px;
+  animation: cactusMov 2s infinite linear;
+}
+
+.jump {
+  animation: jump 0.5s linear;
+}
