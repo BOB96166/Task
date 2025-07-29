@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap");
+@font-face {
+  font-family: Novelist;
+  src: url(Novelist_free.otf);
+}
+.nazva {
+  text-decoration: line-through;
+}
+.class {
+  text-transform: uppercase;
+}
+.momo {
+  text-align: right;
+}
+.rrrr {
+  text-indent: 5%;
+}
+.nnnn {
+  line-height: 1.5;
+}
+.tttt {
+  letter-spacing: 10px;
+}
+.yyyy {
+  word-spacing: 100px;
+}
+.hhhh {
+  text-shadow: 5px 2px 1px #ff0b0b44;
+}
+.jjjj {
+  white-space: pre;
+}
+.gggg {
+  font-size: 24px;
+}
+.vvvv {
+  font-weight: 800;
+}
+.bbbb {
+  font-style: italic;
+}
+.mmmm {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.zzzz {
+  font-family: "Bitcount Prop Double", system-ui;
+}
+.aaa {
+  font-family: Novelist;
+}
